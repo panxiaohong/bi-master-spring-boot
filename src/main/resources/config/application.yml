@@ -1,0 +1,11 @@
+user.name: liang.liang
+
+spring.datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://172.18.21.190:3306/xxxx-test?useUnicode=true&characterEncoding=utf8&autoReconnect=true&allowMultiQueries=true
+    username: root
+    password:
+
+mybatis:
+    mapperLocations: classpath:mapper/*.xml
+    typeAliasesPackage: com.yunat.bi.domain
